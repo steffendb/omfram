@@ -6,8 +6,9 @@ html {
   }
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(175, 152, 122);
     height: 100vh;
+    margin: 0;
     padding: 30px;
     width: 100%;
 }
