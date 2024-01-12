@@ -1,7 +1,15 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
     background-color: antiquewhite;
-    min-height: 100%;
-    padding: 1vh;
+    height: 100vh;
+    padding: 30px;
+    width: 100%;
 }
 
 .page {
@@ -10,4 +18,5 @@ body {
     border-radius: 5px;
     display: flex;
     height: 100%;
+    padding: 30px;
 }
