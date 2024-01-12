@@ -1,0 +1,13 @@
+body {
+    background-color: antiquewhite;
+    min-height: 100%;
+    padding: 1vh;
+}
+
+.page {
+    align-items: flex-end;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    display: flex;
+    height: 100%;
+}
