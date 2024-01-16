@@ -59,3 +59,24 @@ body {
     height: 100%;
     padding: 30px;
 }
+
+.pagealt {
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  letter-spacing: 5px;
+  margin: 48px 0;
+}
+
+.input {
+height: 112px;
+margin-bottom: 40px;
+}
+
+.button {
+height: 80px;
+}
