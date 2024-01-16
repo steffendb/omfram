@@ -63,6 +63,7 @@ body {
 .pagealt {
   align-items: center;
   display: flex;
+  flex-flow: column wrap;
   text-align: center;
 }
 
