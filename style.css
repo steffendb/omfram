@@ -1,26 +1,29 @@
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body {
+  background-color: #333;
   background-image: url(/assets/img/bg.webp);
-    background-color: #FCFCF9;
-    font-family: "Inter", sans-serif;
-    height: 100vh;
-    margin: 0;
-    width: 100%;
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
 }
 
 .page {
-    align-items: flex-end;
-    background-color: blanchedalmond;
-    border-radius: 5px;
-    display: flex;
-    height: 100%;
-    padding: 30px;
+  align-items: flex-end;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  padding: 30px;
 }
 
 .pagealt {
@@ -37,10 +40,10 @@ h1 {
 }
 
 .input {
-height: 112px;
-margin-bottom: 40px;
+  height: 112px;
+  margin-bottom: 40px;
 }
 
 .button {
-height: 80px;
+  height: 80px;
 }
