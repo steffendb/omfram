@@ -26,13 +26,6 @@ body {
   padding: 30px;
 }
 
-.pagealt {
-  align-items: center;
-  display: flex;
-  flex-flow: column wrap;
-  text-align: center;
-}
-
 h1 {
   font-size: 28px;
   letter-spacing: 5px;
