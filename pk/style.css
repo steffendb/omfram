@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  height: 100dvh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #333;
+  background-image: url(/assets/img/bg.webp);
+  background-position: center;
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+  height: 100dvh;
+  margin: 0;
+  width: 100%;
+}
+
+.page {
+  align-items: flex-end;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 28px;
+  letter-spacing: 5px;
+  margin: 48px 0;
+}
+
+.input {
+  height: 112px;
+  margin-bottom: 40px;
+}
+
+.button {
+  height: 80px;
+}
