@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
   height: 100dvh;
 }
 
@@ -7,6 +9,13 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  font-family: inherit;
+}
+
+:root {
+  --primary: #22093B;
+  --secondary: #FFDA56; 
+  --border: 1px solid #CAD6EF;
 }
 
 body {
@@ -19,23 +28,53 @@ body {
   width: 100%;
 }
 
+header {
+border-bottom: var(--border);
+display: flex;
+height: 60px;
+width: 100%;
+}
+
+.logo {
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+}
+
+.input-name {
+  border-left: var(--border);
+  border-right: var(--border);
+}
+
 .page {
-  align-items: flex-end;
-  border-radius: 5px;
-  display: flex;
+}
+
+.input {
   height: 100%;
-  padding: 30px;
+  position: relative;
+}
+
+label {
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+input[type="text"] {
+  border: 0;
+  background-color: #FBFBFF;
+  height: 100%;
 }
 
 h1 {
   font-size: 28px;
   letter-spacing: 5px;
   margin: 48px 0;
-}
-
-.input {
-  height: 112px;
-  margin-bottom: 40px;
 }
 
 .button {
